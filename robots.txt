@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or system folders if present (opsional, hapus jika tidak ada)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /api/
+
+# Sitemap Location (Sangat Penting untuk SEO)
+Sitemap: https://malangoutbounds.vercel.app/sitemap.xml
