@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#065f46" />
+  <meta name="author" content="Malang Venture" />
+  <meta name="keywords" content="rafting kasembon, team building malang, camping batu, tips outbound, wisata malang" />
+
+  <title>Blog & Artikel Petualangan | Malang Venture</title>
+  <meta name="description" content="Kumpulan artikel tips, edukasi, dan rekomendasi wisata adventure di Malang Raya. Rafting, Camping, dan Team Building." />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json" id="json-ld">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "5 Tips Aman Rafting Bagi Pemula di Sungai Kasembon",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7",
+      "author": {
+        "@type": "Person",
+        "name": "Arief Budiman"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malang Venture",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "assets/logo.png"
+        }
+      },
+      "datePublished": "2026-01-19"
+    }
+  </script>
+
+  <style>
+    :root {
+      --brand: #065f46; /* Emerald Green */
+      --brand-light: #34d399;
+      --accent: #f97316; /* Orange */
+      --text-main: #1e293b;
+      --text-gray: #64748b;
+      --bg-light: #f8fafc;
+      --nav-h: 80px;
+      --radius: 16px;
+      --shadow: 0 10px 30px -5px rgba(0,0,0,0.08);
+    }
+
+    body { font-family: 'Plus Jakarta Sans', sans-serif; color: var(--text-main); padding-top: var(--nav-h); background-color: #fff; }
+    a { text-decoration: none; color: inherit; transition: 0.2s; }
+    img { max-width: 100%; height: auto; object-fit: cover; }
+
+    /* NAVBAR (Consistent) */
+    .header-fixed {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1050;
+      background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(12px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03); height: var(--nav-h);
+      display: flex; align-items: center;
+    }
+    .wrap { max-width: 1320px; margin: 0 auto; padding: 0 24px; width: 100%; position: relative; }
+    .logo { font-size: 24px; font-weight: 800; color: var(--brand); display: flex; align-items: center; gap: 8px; }
+    .logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 25px; align-items: center; }
+    .nav-link { font-weight: 600; color: var(--text-main); font-size: 15px; }
+    .nav-link:hover, .nav-link.active { color: var(--brand); }
+    .btn-brand { background: var(--brand); color: #fff; padding: 10px 24px; border-radius: 50px; font-weight: 700; transition: 0.3s; }
+    .btn-brand:hover { background: #047857; color: #fff; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(6, 95, 70, 0.2); }
+
+    /* ARTICLE STYLES */
+    .article-container { max-width: 900px; margin: 0 auto; padding: 40px 0 80px; }
+    
+    /* Breadcrumb */
+    .crumb { font-size: 14px; color: var(--text-gray); margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+    .crumb a { color: var(--brand); font-weight: 600; }
+    .crumb span { opacity: 0.5; }
+
+    /* Header */
+    .art-kicker { display: inline-block; background: #ecfdf5; color: var(--brand); font-weight: 700; font-size: 12px; padding: 6px 12px; border-radius: 6px; letter-spacing: 0.5px; margin-bottom: 15px; text-transform: uppercase; }
+    .art-title { font-size: clamp(32px, 4vw, 48px); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: var(--text-main); }
+    
+    .art-meta { display: flex; align-items: center; gap: 20px; font-size: 14px; color: var(--text-gray); margin-bottom: 30px; flex-wrap: wrap; }
+    .meta-item { display: flex; align-items: center; gap: 8px; }
+    .author-avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; border: 2px solid #ecfdf5; }
+
+    /* Hero Image */
+    .art-hero-img { width: 100%; height: 450px; border-radius: var(--radius); object-fit: cover; margin-bottom: 15px; box-shadow: var(--shadow); }
+    .art-caption { font-size: 13px; color: var(--text-gray); text-align: center; display: block; font-style: italic; margin-bottom: 40px; }
+
+    /* Table of Contents */
+    .toc-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 40px; position: relative; overflow: hidden; }
+    .toc-box::before { content: ""; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--brand); }
+    .toc-head { font-weight: 700; font-size: 18px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+    .toc-list { list-style: none; padding: 0; margin: 0; display: block; transition: 0.3s; }
+    .toc-list.collapsed { display: none; }
+    .toc-list li { margin-bottom: 10px; }
+    .toc-list a { font-size: 15px; color: var(--text-main); display: flex; align-items: flex-start; gap: 10px; }
+    .toc-list a:hover { color: var(--brand); transform: translateX(5px); }
+    .toc-list a::before { content: "•"; color: var(--brand); font-weight: bold; }
+
+    /* Content Body */
+    .art-body { font-size: 18px; line-height: 1.8; color: #334155; }
+    .art-body p { margin-bottom: 24px; }
+    .art-body h2 { font-size: 28px; font-weight: 800; color: var(--text-main); margin: 40px 0 20px; position: relative; padding-left: 0; }
+    .art-body h3 { font-size: 22px; font-weight: 700; margin: 30px 0 15px; color: var(--brand); }
+    .art-body ul, .art-body ol { margin-bottom: 24px; padding-left: 20px; }
+    .art-body li { margin-bottom: 10px; }
+    
+    /* Blockquote */
+    blockquote { background: #fff7ed; border-left: 4px solid var(--accent); padding: 25px; border-radius: 0 12px 12px 0; font-size: 18px; font-style: italic; color: #431407; margin: 30px 0; }
+
+    /* Promo Box */
+    .promo-box { background: linear-gradient(135deg, #065f46 0%, #059669 100%); color: white; padding: 35px; border-radius: var(--radius); text-align: center; margin: 50px 0; box-shadow: 0 15px 30px rgba(6, 95, 70, 0.2); position: relative; overflow: hidden; }
+    .promo-box::after { content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none; }
+    .promo-btn { background: #fff; color: var(--brand); padding: 12px 28px; border-radius: 50px; font-weight: 700; display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; transition: 0.3s; }
+    .promo-btn:hover { background: #f0fdf4; transform: scale(1.05); }
+
+    /* FAQ in Article */
+    .faq-mini { margin: 40px 0; }
+    .faq-mini .accordion-item { border: 1px solid #e2e8f0; margin-bottom: 10px; border-radius: 10px !important; overflow: hidden; }
+    .faq-mini .accordion-button { font-weight: 600; background: #fff; }
+    .faq-mini .accordion-button:not(.collapsed) { color: var(--brand); background: #ecfdf5; }
+
+    /* Author & Share */
+    .author-box { background: #f8fafc; padding: 30px; border-radius: var(--radius); display: flex; gap: 20px; align-items: center; margin-top: 60px; border: 1px solid #e2e8f0; }
+    .author-lg { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; }
+    .share-area { margin-top: 30px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .share-btn { flex: 1; min-width: 140px; padding: 12px; border-radius: 8px; font-weight: 600; color: #fff; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.2s; }
+    .share-wa { background: #25D366; } .share-wa:hover { background: #1ebc57; }
+    .share-fb { background: #1877F2; } .share-fb:hover { background: #1465c9; }
+    .share-tw { background: #1DA1F2; } .share-tw:hover { background: #0c8bd9; }
+
+    /* Related Articles (Cards from Screenshot) */
+    .related-sec { background: #f8fafc; padding: 60px 0; border-top: 1px solid #e2e8f0; }
+    .rel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 30px; }
+    .rel-card { background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); transition: 0.3s; display: flex; flex-direction: column; height: 100%; cursor: pointer; border: 1px solid transparent; }
+    .rel-card:hover { transform: translateY(-8px); border-color: var(--brand-light); }
+    .rel-img { height: 200px; width: 100%; object-fit: cover; }
+    .rel-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+    .rel-meta { font-size: 12px; color: var(--text-gray); margin-bottom: 10px; display: block; }
+    .rel-title { font-size: 18px; font-weight: 700; margin-bottom: 12px; line-height: 1.4; color: var(--text-main); }
+    .rel-desc { font-size: 14px; color: var(--text-gray); margin-bottom: 20px; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .rel-link { color: var(--brand); font-weight: 700; font-size: 14px; margin-top: auto; display: flex; align-items: center; gap: 5px; }
+
+    /* Footer & Floating */
+    footer { background: #0f172a; color: #fff; padding: 60px 0 20px; }
+    .footer-col h4 { margin-bottom: 24px; font-weight: 700; }
+    .footer-links a { display: block; color: #94a3b8; margin-bottom: 12px; transition: 0.2s; }
+    .footer-links a:hover { color: var(--brand-light); padding-left: 5px; }
+    
+    .float-stack { position: fixed; bottom: 30px; right: 30px; z-index: 1060; display: flex; flex-direction: column; gap: 15px; }
+    .float-btn { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); transition: 0.3s; border: none; cursor: pointer; }
+    .float-btn:hover { transform: scale(1.1); }
+    .wa-btn { background: #25D366; }
+    .top-btn { background: var(--brand); }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .rel-grid { grid-template-columns: 1fr; }
+      .art-title { font-size: 32px; }
+      .promo-box { padding: 25px; }
+      .nav-links { display: none; } /* Simplified mobile nav for this file */
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <nav class="header-fixed">
+    <div class="wrap d-flex justify-content-between align-items-center">
+      <a href="index.html" class="logo">
+        <i class="bi bi-compass"></i> Malang<span>Venture</span>
+      </a>
+      <div class="nav-links d-none d-lg-flex">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">Tentang Kami</a>
+        <a href="index.html#produk" class="nav-link">Paket</a>
+        <a href="#" class="nav-link active">Blog</a>
+      </div>
+      <a href="index.html#contact" class="btn-brand d-none d-sm-block">Hubungi Kami</a>
+    </div>
+  </nav>
+
+  <main id="mainContent">
+    </main>
+
+  <section class="related-sec">
+    <div class="wrap">
+      <div class="text-center mb-4">
+        <span class="text-accent fw-bold small ls-1 text-uppercase">Artikel Lainnya</span>
+        <h2 class="fw-bold fs-2 mt-2">Baca Juga</h2>
+      </div>
+      <div class="rel-grid" id="relatedContainer">
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <a href="#" class="logo mb-3" style="color:white;">
+            <i class="bi bi-compass"></i> Malang<span>Venture</span>
+          </a>
+          <p class="text-secondary small mt-3">Vendor Outbound No.1 di Malang Raya. Menyediakan pengalaman petualangan aman, seru, dan edukatif sejak 2015.</p>
+        </div>
+        <div class="col-lg-2 footer-col footer-links">
+          <h4>Menu</h4>
+          <a href="index.html">Beranda</a>
+          <a href="index.html#layanan">Layanan</a>
+          <a href="index.html#galeri">Galeri</a>
+        </div>
+        <div class="col-lg-2 footer-col footer-links">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Disclaimer</a>
+        </div>
+        <div class="col-lg-4 footer-col">
+          <h4>Kontak</h4>
+          <p class="text-secondary small mb-2"><i class="bi bi-geo-alt me-2"></i> Jl. Raya Tlogomas No. 1, Malang</p>
+          <p class="text-secondary small mb-2"><i class="bi bi-whatsapp me-2"></i> +62 812-3456-7890</p>
+          <p class="text-secondary small"><i class="bi bi-envelope me-2"></i> info@malangventure.com</p>
+        </div>
+      </div>
+      <div class="text-center pt-4 mt-4 border-top border-secondary text-secondary small">
+        © 2026 Malang Venture. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <div class="float-stack">
+    <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="float-btn top-btn">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+    <a href="https://wa.me/6281234567890" target="_blank" class="float-btn wa-btn">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+    // --- DATABASE ARTIKEL (3 ARTIKEL LENGKAP) ---
+    const articles = {
+      "rafting": {
+        id: "rafting",
+        title: "5 Tips Aman Rafting Bagi Pemula di Sungai Kasembon",
+        date: "19 Jan 2026",
+        tag: "Tips",
+        author: "Arief Budiman",
+        role: "Senior River Guide",
+        readTime: "5 Menit Baca",
+        image: "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?auto=format&fit=crop&w=1200&q=80",
+        caption: "Keseruan tim Malang Venture saat menjajal arus deras Sungai Kasembon.",
+        desc: "Persiapan fisik dan perlengkapan apa saja yang wajib dibawa sebelum arung jeram agar pengalaman pertama Anda tetap aman dan menyenangkan.",
+        content: `
+          <p>Malang tidak hanya terkenal dengan apel dan udaranya yang sejuk, tetapi juga wisata adrenalin yang memacu jantung. Salah satunya adalah <strong>Rafting</strong> atau arung jeram. Bagi Anda yang baru pertama kali mencoba, Sungai Kasembon adalah pilihan yang tepat karena memiliki debit air yang stabil namun tetap memberikan tantangan yang seru.</p>
+          
+          <p>Banyak pemula merasa ragu mencoba rafting karena takut akan risiko keselamatan. Padahal, dengan persiapan yang benar dan memilih vendor terpercaya, rafting adalah olahraga rekreasi yang sangat aman. Berikut panduan lengkapnya.</p>
+
+          <h2 id="section1">1. Persiapan Fisik dan Mental</h2>
+          <p>Meskipun rafting termasuk olahraga rekreasi, kondisi fisik yang prima sangat dibutuhkan. Anda akan mendayung secara aktif selama kurang lebih 2 jam. Pastikan Anda sudah sarapan secukupnya (hindari makanan terlalu pedas atau asam) dan tidak memiliki riwayat penyakit jantung atau asma berat yang kambuhan.</p>
+
+          <h2 id="section2">2. Kenali Perlengkapan Wajib (Outfit)</h2>
+          <p>Jangan salah kostum! Kesalahan pakaian bisa membuat Anda cepat lelah atau kedinginan. Berikut checklistnya:</p>
+          <ul>
+            <li><strong>Pakaian:</strong> Gunakan kaos bahan sintetik/jersey. Hindari katun karena menyerap air dan berat.</li>
+            <li><strong>Alas Kaki:</strong> Sandal gunung bertali atau sepatu kets lama. Sandal jepit sangat dilarang karena licin dan mudah hanyut.</li>
+            <li><strong>Sunblock:</strong> Wajib, meski mendung, pantulan UV dari air cukup kuat.</li>
+            <li><strong>Tali Kacamata:</strong> Jika Anda berkacamata, pasang strap agar tidak jatuh ke sungai.</li>
+          </ul>
+
+          <div class="promo-box">
+            <h3 class="mt-0 text-white">Promo Rafting Weekend Ini!</h3>
+            <p class="mb-0 text-white opacity-75">Diskon 10% untuk grup minimal 5 orang. Termasuk makan siang prasmanan & dokumentasi.</p>
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20promo%20rafting" class="promo-btn"><i class="bi bi-whatsapp"></i> Ambil Promo</a>
+          </div>
+
+          <h2 id="section3">3. Pahami Aba-aba Skipper (Pemandu)</h2>
+          <p>Di setiap perahu, ada satu Skipper yang memegang kendali. Keselamatan tim bergantung pada kekompakan mendengarkan instruksi mereka. Aba-aba dasar meliputi:</p>
+          <ul>
+            <li><strong>"Maju/Forward":</strong> Dayung ke arah depan sekuat tenaga.</li>
+            <li><strong>"Mundur/Back Paddle":</strong> Dayung ke arah belakang (untuk pengereman).</li>
+            <li><strong>"Pindah Kanan/Kiri":</strong> Pindah posisi duduk untuk menyeimbangkan berat perahu.</li>
+            <li><strong>"BOOM!":</strong> Posisi siaga menghadapi benturan/jeram. Masukkan badan ke dalam perahu dan pegang tali pengaman.</li>
+          </ul>
+
+          <blockquote>
+            "Jangan pernah melilitkan tali pengaman perahu ke tangan atau kaki Anda. Cukup dipegang erat. Ini untuk mencegah cedera jika perahu terbalik." - Arief Budiman, Senior Guide.
+          </blockquote>
+
+          <h2 id="section4">4. Teknik Self-Rescue (Penyelamatan Diri)</h2>
+          <p>Jika Anda terlempar ke air (yang sebenarnya jarang terjadi jika patuh instruksi), <strong>JANGAN PANIK</strong>. Ikuti prosedur <em>White Water Floating</em>:</p>
+          <ol>
+            <li>Posisikan tubuh terlentang menghadap langit.</li>
+            <li>Angkat kedua kaki ke permukaan air dan arahkan ke hilir (mengikuti arus). Ini melindungi kepala dan badan dari benturan batu.</li>
+            <li>Jangan mencoba berdiri di arus deras, kaki bisa terjepit di celah bebatuan dasar sungai.</li>
+            <li>Tunggu tali lempar (throw bag) dari tim rescue atau berenang perlahan ke tepi yang arusnya tenang.</li>
+          </ol>
+
+          <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80" class="rounded-4 w-100 my-4 shadow-sm" alt="Ilustrasi Rafting">
+          <span class="d-block text-center text-secondary small fst-italic mb-4">Briefing sebelum pengarungan adalah kunci keselamatan utama.</span>
+
+          <h2 id="section5">Kesimpulan</h2>
+          <p>Rafting di Sungai Kasembon Malang menawarkan grade kesulitan II-III yang sangat cocok untuk pemula hingga menengah. Dengan mengikuti 5 tips di atas, Anda tidak hanya aman, tapi bisa menikmati setiap momen adrenalin yang ditawarkan. Segera ajak teman kantor atau keluarga Anda!</p>
+
+          <div class="faq-mini">
+            <h3 class="mb-3 fs-5 border-bottom pb-2">FAQ Rafting Kasembon</h3>
+            <div class="accordion" id="faqArt">
+              <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fa1">Berapa usia minimal peserta?</button></h2>
+                <div id="fa1" class="accordion-collapse collapse"><div class="accordion-body">Usia minimal disarankan 7 tahun (Kid Rafting) dengan kondisi debit air normal.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fa2">Apakah harus bisa berenang?</button></h2>
+                <div id="fa2" class="accordion-collapse collapse"><div class="accordion-body">Tidak wajib. Pelampung (Life Jacket) yang kami sediakan memiliki daya apung tinggi standar internasional.</div></div>
+              </div>
+            </div>
+          </div>
+        `
+      },
+      "teambuilding": {
+        id: "teambuilding",
+        title: "Mengapa Perusahaan Butuh Team Building Minimal Setahun Sekali?",
+        date: "15 Jan 2026",
+        tag: "Edukasi",
+        author: "Sarah Wijaya",
+        role: "HR Consultant & Trainer",
+        readTime: "6 Menit Baca",
+        image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+        caption: "Aktivitas membangun menara manusia melatih kepercayaan dan strategi tim.",
+        desc: "Meningkatkan produktivitas karyawan melalui kegiatan luar ruang yang menyenangkan bukan sekadar liburan, tapi investasi SDM jangka panjang.",
+        content: `
+          <p>Di era kerja yang serba cepat dan penuh tekanan (high pressure), fenomena <em>burnout</em> karyawan menjadi musuh utama produktivitas. Banyak perusahaan di Malang dan Surabaya mulai menyadari bahwa gaji tinggi saja tidak cukup untuk mempertahankan talenta terbaik. Di sinilah peran <strong>Team Building</strong> atau Outbound Training menjadi krusial.</p>
+
+          <p>Bukan sekadar hura-hura atau liburan gratis, Team Building yang dirancang dengan metode <em>Experiential Learning</em> memiliki dampak psikologis yang mendalam bagi organisasi. Berikut analisisnya.</p>
+
+          <h2 id="section1">1. Memecah Silo (Sekat) Antar Divisi</h2>
+          <p>Dalam keseharian kantor, seringkali tim Marketing jarang berinteraksi dengan tim IT, atau tim Finance tidak paham kendala tim Operasional. Team Building memaksa mereka berbaur dalam satu kelompok acak.</p>
+          <p>Melalui permainan seperti <em>"Tug of War"</em> atau <em>"Pipe Line"</em>, sekat hierarki dan divisi runtuh. Direktur bisa saja dipimpin oleh staff magang dalam sebuah game strategi. Ini membangun rasa kesetaraan dan empati baru saat kembali ke kantor.</p>
+
+          <h2 id="section2">2. Mengasah Komunikasi Efektif</h2>
+          <p>Banyak masalah kantor bermula dari miskomunikasi. Dalam simulasi outbound, instruksi seringkali dibatasi (misal: mata tertutup, tidak boleh bicara). Ini memaksa peserta untuk:</p>
+          <ul>
+            <li>Mendengarkan lebih aktif (Active Listening).</li>
+            <li>Menggunakan bahasa tubuh yang jelas.</li>
+            <li>Mempercayai rekan kerja untuk menuntun jalan.</li>
+          </ul>
+
+          <blockquote>
+            "Investasi pada team building jauh lebih murah dibandingkan biaya merekrut karyawan baru akibat turnover rate yang tinggi karena lingkungan kerja toxic."
+          </blockquote>
+
+          <div class="promo-box" style="background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);">
+            <h3 class="mt-0 text-white">Paket Corporate Gathering 2026</h3>
+            <p class="mb-0 text-white opacity-75">Fullboard Hotel Batu + Motivator Nasional + Dokumentasi Drone. Diskon Early Bird.</p>
+            <a href="https://wa.me/6281234567890?text=Info%20Corporate%20Gathering" class="promo-btn" style="color: #ea580c;"><i class="bi bi-file-text"></i> Minta Proposal</a>
+          </div>
+
+          <h2 id="section3">3. Identifikasi Bibit Pemimpin (Leadership)</h2>
+          <p>HRD seringkali terkejut melihat potensi kepemimpinan muncul dari karyawan yang biasanya pendiam di kantor. Saat menghadapi tekanan dalam simulasi tantangan alam, karakter asli seseorang akan muncul.</p>
+          <p>Siapa yang mengambil inisiatif? Siapa yang mampu menenangkan tim saat panik? Siapa yang solutif? Outbound adalah "assessment center" yang natural dan jujur.</p>
+
+          <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1000&q=80" class="rounded-4 w-100 my-4 shadow-sm" alt="Diskusi Tim">
+          <span class="d-block text-center text-secondary small fst-italic mb-4">Sesi debriefing (refleksi) setelah games adalah inti dari pembelajaran outbound.</span>
+
+          <h2 id="section4">Kesimpulan</h2>
+          <p>Perusahaan yang sehat bukan hanya dinilai dari profit, tapi dari kesehatan mental dan kekompakan timnya. Malang Venture menyediakan modul team building yang disesuaikan dengan <em>Core Values</em> perusahaan Anda (Customized Program). Jangan biarkan tim Anda berjalan sendiri-sendiri, satukan visi di alam terbuka.</p>
+
+          <div class="faq-mini">
+            <h3 class="mb-3 fs-5 border-bottom pb-2">FAQ Team Building</h3>
+            <div class="accordion" id="faqArt2">
+              <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fb1">Berapa lama durasi idealnya?</button></h2>
+                <div id="fb1" class="accordion-collapse collapse"><div class="accordion-body">Untuk dampak maksimal, kami sarankan program 2 Hari 1 Malam (2D1N) agar ada sesi malam keakraban.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fb2">Apakah bisa indoor?</button></h2>
+                <div id="fb2" class="accordion-collapse collapse"><div class="accordion-body">Bisa. Kami memiliki modul "Indoor Training" jika cuaca tidak mendukung atau permintaan khusus klien.</div></div>
+              </div>
+            </div>
+          </div>
+        `
+      },
+      "camping": {
+        id: "camping",
+        title: "Rekomendasi 3 Spot Camping Keluarga Terbaik di Batu",
+        date: "10 Jan 2026",
+        tag: "Lokasi",
+        author: "Dian Sastro",
+        role: "Travel Blogger",
+        readTime: "4 Menit Baca",
+        image: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=80",
+        caption: "Suasana pagi yang magis di area perkemahan Coban Talun.",
+        desc: "Daftar lokasi camping dengan fasilitas toilet bersih, akses listrik, dan pemandangan city light yang memukau. Ramah anak dan lansia.",
+        content: `
+          <p>Ingin mengajak si kecil mengenal alam tapi khawatir dengan kenyamanan? Kota Batu memiliki solusinya. Tren <em>Glamorous Camping</em> (Glamping) atau <em>Campervan</em> kini menjamur, menawarkan sensasi tidur di alam dengan fasilitas setara hotel berbintang.</p>
+          
+          <p>Berdasarkan survei lokasi dan testimoni klien Malang Venture, berikut adalah 3 rekomendasi spot camping paling ramah keluarga (kids-friendly) di tahun 2026.</p>
+
+          <h2 id="section1">1. Coban Talun (Apache Camp)</h2>
+          <p>Terletak di Bumiaji, Coban Talun tidak hanya menawarkan air terjun. Area camping ground-nya sangat luas dengan rumput hijau yang terawat. Keunikannya adalah adanya penyewaan tenda bergaya Indian (Apache) dan Pagupon.</p>
+          <ul>
+            <li><strong>Fasilitas:</strong> Mushola, Toilet bersih (banyak), Warung makan 24 jam, Listrik.</li>
+            <li><strong>Daya Tarik:</strong> Kebun bunga Hortensia yang instagramable.</li>
+            <li><strong>Akses:</strong> Mobil bisa masuk sampai dekat area kemah.</li>
+          </ul>
+
+          <h2 id="section2">2. Puncak Brakseng</h2>
+          <p>Bagi pemburu <em>City Light</em> dan <em>Sunrise</em>, ini surganya. Terletak di ketinggian 1.700 MDPL, Brakseng adalah lahan pertanian tertinggi di Batu. Udaranya sangat dingin, bisa mencapai 15 derajat di malam hari.</p>
+          <p>Meskipun tinggi, jalannya sudah aspal mulus. Cocok untuk Anda yang ingin sensasi "di atas awan" tanpa perlu mendaki gunung berjam-jam.</p>
+
+          <div class="promo-box" style="background: #1e293b;">
+            <h3 class="mt-0 text-white">Sewa Tenda & Alat Camping Lengkap</h3>
+            <p class="mb-0 text-white opacity-75">Tidak punya alat? Kami sediakan Tenda Dome, Sleeping Bag, Matras, hingga Alat Masak. Tinggal bawa badan.</p>
+            <a href="https://wa.me/6281234567890?text=Sewa%20Alat%20Camping" class="promo-btn" style="color: #1e293b;"><i class="bi bi-box-seam"></i> Cek Harga Sewa</a>
+          </div>
+
+          <h2 id="section3">3. Taman Pinus Campervan Park</h2>
+          <p>Lokasi ini didesain khusus untuk mobil bisa parkir tepat di sebelah tenda. Sangat memudahkan untuk loading-unloading barang bawaan keluarga. Dikelilingi hutan pinus yang rindang, suasananya sangat tenang dan syahdu.</p>
+          <ul>
+            <li><strong>Keamanan:</strong> Ada pos penjagaan 24 jam & pagar keliling.</li>
+            <li><strong>Air:</strong> Air bersih melimpah dari sumber mata air pegunungan.</li>
+          </ul>
+
+          <blockquote>
+            "Tips Camping Keluarga: Selalu bawa jaket tebal berlapis, obat-obatan pribadi (minyak kayu putih), dan permainan papan (board games) untuk mengisi waktu malam tanpa gadget."
+          </blockquote>
+
+          <img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=1000&q=80" class="rounded-4 w-100 my-4 shadow-sm" alt="Api Unggun">
+          <span class="d-block text-center text-secondary small fst-italic mb-4">Api unggun dan jagung bakar adalah penutup malam yang sempurna.</span>
+
+          <h2 id="section4">Kesimpulan</h2>
+          <p>Berkemah di Batu adalah cara terbaik untuk <em>digital detox</em> sejenak. Coban Talun untuk yang suka keramaian dan fasilitas lengkap, Brakseng untuk pemandangan, dan Taman Pinus untuk privasi campervan. Pilih sesuai gaya liburan keluarga Anda!</p>
+
+          <div class="faq-mini">
+            <h3 class="mb-3 fs-5 border-bottom pb-2">FAQ Camping Batu</h3>
+            <div class="accordion" id="faqArt3">
+              <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1">Apakah aman dari hewan liar?</button></h2>
+                <div id="fc1" class="accordion-collapse collapse"><div class="accordion-body">Sangat aman. Ketiga lokasi di atas adalah area wisata terkelola, bukan hutan belantara liar.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2">Berapa tiket masuknya?</button></h2>
+                <div id="fc2" class="accordion-collapse collapse"><div class="accordion-body">Rata-rata tiket camping berkisar Rp 15.000 - Rp 25.000 per orang per malam (belum termasuk parkir).</div></div>
+              </div>
+            </div>
+          </div>
+        `
+      }
+    };
+
+    // --- LOGIC DISPLAY ARTIKEL (SPA) ---
+    
+    // 1. Fungsi Load Artikel Utama
+    function loadArticle(articleKey) {
+      const data = articles[articleKey];
+      if(!data) return;
+
+      // Update DOM
+      document.title = data.title + " | Malang Venture";
+      document.querySelector('.art-kicker').innerText = data.tag;
+      document.querySelector('.art-title').innerText = data.title;
+      document.getElementById('metaAuthor').innerText = data.author;
+      document.getElementById('metaDate').innerText = data.date;
+      document.getElementById('metaRead').innerText = data.readTime;
+      document.getElementById('heroImg').src = data.image;
+      document.getElementById('heroCaption').innerText = data.caption;
+      document.getElementById('authorImg').src = `https://ui-avatars.com/api/?name=${data.author}&background=065f46&color=fff`; // Fallback avatar generator
+      document.getElementById('authorName').innerText = data.author;
+      document.getElementById('authorRole').innerText = data.role;
+      
+      // Inject Content HTML
+      document.getElementById('articleBody').innerHTML = data.content;
+
+      // Update Share Links
+      const currentUrl = window.location.href;
+      document.getElementById('shareWa').href = `https://wa.me/?text=${encodeURIComponent(data.title + " " + currentUrl)}`;
+      document.getElementById('shareFb').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+      document.getElementById('shareTw').href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(data.title)}&url=${encodeURIComponent(currentUrl)}`;
+
+      // Generate TOC Ulang
+      generateTOC();
+
+      // Render Related Articles (exclude current)
+      renderRelated(articleKey);
+
+      // Scroll to top smooth
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // 2. Fungsi Render Related Articles
+    function renderRelated(currentKey) {
+      const container = document.getElementById('relatedContainer');
+      container.innerHTML = ''; // Clear existing
+
+      Object.keys(articles).forEach(key => {
+        if(key === currentKey) return; // Skip current article
+        
+        const item = articles[key];
+        const html = `
+          <div class="rel-card" onclick="loadArticle('${item.id}')">
+            <img src="${item.image}" alt="${item.title}" class="rel-img">
+            <div class="rel-body">
+              <span class="rel-meta">${item.date} • ${item.tag}</span>
+              <h3 class="rel-title">${item.title}</h3>
+              <p class="rel-desc">${item.desc}</p>
+              <div class="rel-link">Baca Selengkapnya <i class="bi bi-arrow-right"></i></div>
+            </div>
+          </div>
+        `;
+        container.insertAdjacentHTML('beforeend', html);
+      });
+    }
+
+    // 3. Fungsi Auto TOC Generator
+    function generateTOC() {
+      const content = document.getElementById('articleBody');
+      const headings = content.querySelectorAll('h2, h3');
+      const tocList = document.getElementById('tocList');
+      tocList.innerHTML = ''; // Reset
+
+      if(headings.length === 0) {
+        document.querySelector('.toc-box').style.display = 'none';
+        return;
+      } else {
+        document.querySelector('.toc-box').style.display = 'block';
+      }
+
+      headings.forEach((heading, index) => {
+        // Set ID if not exist
+        if(!heading.id) heading.id = `toc-${index}`;
+        
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `#${heading.id}`;
+        a.innerText = heading.innerText;
+        
+        // Indent for H3
+        if(heading.tagName === 'H3') {
+          a.style.paddingLeft = '20px';
+          a.style.fontSize = '14px';
+        }
+
+        a.onclick = (e) => {
+          e.preventDefault();
+          document.getElementById(heading.id).scrollIntoView({behavior: 'smooth', block: 'center'});
+        };
+
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+    }
+
+    // Toggle TOC Visibility
+    function toggleToc() {
+      document.getElementById('tocList').classList.toggle('collapsed');
+      const icon = document.querySelector('.toc-head i');
+      icon.classList.toggle('bi-chevron-down');
+      icon.classList.toggle('bi-chevron-up');
+    }
+
+    // --- TEMPLATE HTML STRUKTUR UTAMA ---
+    // Kita inject struktur statis ini ke #mainContent sekali saja, lalu JS memanipulasi isinya.
+    document.getElementById('mainContent').innerHTML = `
+      <article class="article-container wrap">
+        <nav aria-label="breadcrumb">
+          <div class="crumb">
+            <a href="index.html">Home</a> <i class="bi bi-chevron-right" style="font-size:10px;"></i> 
+            <a href="#">Blog</a> <i class="bi bi-chevron-right" style="font-size:10px;"></i>
+            <span>Detail Artikel</span>
+          </div>
+        </nav>
+
+        <header>
+          <span class="art-kicker">KATEGORI</span>
+          <h1 class="art-title">Judul Artikel Loading...</h1>
+          <div class="art-meta">
+            <div class="meta-item"><i class="bi bi-person-circle text-accent"></i> <span id="metaAuthor">Penulis</span></div>
+            <div class="meta-item"><i class="bi bi-calendar3"></i> <span id="metaDate">Tanggal</span></div>
+            <div class="meta-item"><i class="bi bi-clock"></i> <span id="metaRead">Waktu Baca</span></div>
+          </div>
+        </header>
+
+        <figure>
+          <img src="" alt="Hero Image" class="art-hero-img" id="heroImg">
+          <figcaption class="art-caption" id="heroCaption">Caption gambar</figcaption>
+        </figure>
+
+        <div class="toc-box">
+          <div class="toc-head" onclick="toggleToc()">
+            Daftar Isi <i class="bi bi-chevron-down"></i>
+          </div>
+          <ul id="tocList" class="toc-list"></ul>
+        </div>
+
+        <div class="art-body" id="articleBody">
+          </div>
+
+        <div class="author-box">
+          <img src="" alt="Author" class="author-lg" id="authorImg">
+          <div>
+            <h5 class="fw-bold mb-1" id="authorName">Nama Penulis</h5>
+            <small class="text-muted d-block mb-2" id="authorRole">Role Penulis</small>
+            <p class="mb-0 small text-secondary">Berpengalaman dalam dunia outdoor activity dan manajemen event di Jawa Timur. Suka berbagi tips keselamatan dan rekomendasi wisata.</p>
+          </div>
+        </div>
+
+        <div class="share-area">
+          <span class="fw-bold me-2">Bagikan Artikel:</span>
+          <a href="#" class="share-btn share-wa" id="shareWa" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+          <a href="#" class="share-btn share-fb" id="shareFb" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+          <a href="#" class="share-btn share-tw" id="shareTw" target="_blank"><i class="bi bi-twitter-x"></i> Twitter</a>
+        </div>
+      </article>
+    `;
+
+    // --- INITIALIZE ---
+    // Load artikel pertama (Rafting) saat halaman dibuka
+    document.addEventListener("DOMContentLoaded", () => {
+      loadArticle('rafting');
+    });
+
+  </script>
+</body>
+</html>
